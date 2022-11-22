@@ -1,4 +1,4 @@
-package com.bukin.css.data.pojo
+package com.bukin.css.data.api.pojo
 
 data class CurrencyResponse(
     val base: String,

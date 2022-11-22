@@ -1,6 +1,6 @@
-package com.bukin.css.data
+package com.bukin.css.data.api
 
-import com.bukin.css.data.pojo.CurrencyResponse
+import com.bukin.css.data.api.pojo.CurrencyResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Headers
