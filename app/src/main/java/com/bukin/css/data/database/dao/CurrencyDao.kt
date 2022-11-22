@@ -9,6 +9,7 @@ import com.bukin.css.data.database.entity.SortedValue
 
 @Dao
 interface CurrencyDao {
+
     @Query("SELECT * FROM currency")
     suspend fun getAll(): List<CurrencyDb>
 
