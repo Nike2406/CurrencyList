@@ -1,4 +1,4 @@
-package com.bukin.css.data.database.entity
+package com.bukin.css.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

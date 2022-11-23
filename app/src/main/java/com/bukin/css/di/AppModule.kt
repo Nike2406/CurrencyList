@@ -1,6 +1,6 @@
 package com.bukin.css.di
 
-import com.bukin.css.data.api.CurrencyApi
+import com.bukin.css.data.remote.CurrencyApi
 import com.bukin.css.util.DispatcherProvider
 import dagger.Module
 import dagger.Provides

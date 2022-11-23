@@ -1,13 +1,13 @@
-package com.bukin.css.data.database.dao
+package com.bukin.css.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.bukin.css.data.database.entity.CurrencyDb
-import com.bukin.css.data.database.entity.CurrencyFavouriteDb
-import com.bukin.css.data.database.entity.SortedValue
+import com.bukin.css.data.local.entity.CurrencyDb
+import com.bukin.css.data.local.entity.CurrencyFavouriteDb
+import com.bukin.css.data.local.entity.SortedValue
 
 @Dao
 interface CurrencyFavouriteDao {

@@ -1,9 +1,9 @@
-package com.bukin.css.data.database.database
+package com.bukin.css.data.local.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.bukin.css.data.database.dao.CurrencyDao
-import com.bukin.css.data.database.entity.CurrencyDb
+import com.bukin.css.data.local.dao.CurrencyDao
+import com.bukin.css.data.local.entity.CurrencyDb
 
 @Database(
     entities = [CurrencyDb::class],

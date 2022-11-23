@@ -1,6 +1,6 @@
-package com.bukin.css.data.api
+package com.bukin.css.data.remote
 
-import com.bukin.css.data.api.pojo.CurrencyResponse
+import com.bukin.css.data.remote.pojo.CurrencyResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -11,8 +11,8 @@ interface CurrencyApi {
     @Headers("apikey: $QUERY_API_KEY")
     @GET("/exchangerates_data/latest?")
     suspend fun getRates(
-        @Query(QUERY_SYMBOLS) symbols: String,
-        @Query(QUERY_BASE) base: String
+        @Query(QUERY_SYMBOLS) symbols: String = QUERY_SYMBOLS,
+        @Query(QUERY_BASE) base: String = QUERY_BASE,
     ): Response<CurrencyResponse>
 
     companion object {

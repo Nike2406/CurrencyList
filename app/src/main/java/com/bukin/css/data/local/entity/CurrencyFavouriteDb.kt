@@ -1,4 +1,4 @@
-package com.bukin.css.data.database.entity
+package com.bukin.css.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -6,7 +6,6 @@ import androidx.room.ForeignKey
 import androidx.room.ForeignKey.CASCADE
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import androidx.room.Relation
 
 @Entity(
     tableName = "currency_favourite",
